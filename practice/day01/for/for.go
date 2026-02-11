@@ -36,4 +36,26 @@ func main() {
 		fmt.Println(i)
 	} */
 
+	/*
+		forr: 针对容器类型的数据进行变量
+	*/
+
+	// string类型
+	// for _, v := range "Hello,World" {
+	// 	fmt.Println(v)
+	// }
+
+	// array类型
+	/* 	arr := [5]int{
+	   		1, 2, 3, 4, 5,
+	   	}
+	   	for k, v := range arr {
+	   		fmt.Println("索引:", k, v)
+	   	} */
+
+	// slice类型
+	/* 	slice := []int{0, 1, 2, 3, 4, 5}
+	   	for k, v := range slice {
+	   		fmt.Println(k, v)
+	   	} */
 }

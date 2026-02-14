@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="5VxdeD8eghNTxmeGN3z7" name="第 1 页">
+        <mxGraphModel dx="1544" dy="460" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#CCCCCC" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="pinter&lt;div&gt;(0xc00000a078)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="104" y="186" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="len(1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="193" y="186" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="cap(1)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="279" y="186" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="100" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="105.5" y="283" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space-collapse: preserve;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;:=&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt; []&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;100&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;} &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7f848e;&quot;&gt;// []int类型的切片&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;fmt&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;Printf&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;&quot;s1: 底层数组地址:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%p&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;, 切片变量地址:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%p&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;,长度:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%v&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;,容量:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%v&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt; 底层数组变量地址: &lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%p&lt;/span&gt;&lt;span style=&quot;color: #56b6c2;&quot;&gt;\n&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;len&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;), &lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;cap&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;), &lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;]) &lt;/span&gt;&lt;span style=&quot;color: #7f848e;&quot;&gt;// %p 打印的是在内存中的（指针）地址&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #e5c07b;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;make&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;([]&lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;int&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #7f848e;&quot;&gt;// []int整数类型的切片、长度2、容量5&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;fmt&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;Printf&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;&quot;s1: 底层数组地址:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%p&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;, 切片变量地址:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%p&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;,长度:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%v&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;,容量:&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%v&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt; 底层数组变量地址: &lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;%p&lt;/span&gt;&lt;span style=&quot;color: #56b6c2;&quot;&gt;\n&lt;/span&gt;&lt;span style=&quot;color: #98c379;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;len&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;), &lt;/span&gt;&lt;span style=&quot;color: #61afef;font-weight: bold;&quot;&gt;cap&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;), &lt;/span&gt;&lt;span style=&quot;color: #c678dd;&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;s1&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #d19a66;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;]) &lt;/span&gt;&lt;span style=&quot;color: #7f848e;&quot;&gt;// %p 打印的是在内存中的（指针）地址&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="50" width="1234" height="107" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.305;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="16" target="2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="288" y="243" as="sourcePoint"/>
+                        <mxPoint x="338" y="193" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="底层数组" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="194.5" y="288" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="分片地址(指针)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="196" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="262" y="332" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="351" y="332" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="332" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="529" y="332" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="618" y="332" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="步骤一：申请一个新的数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="297" width="162" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="pinter&lt;div&gt;(0xc00000e510)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="191" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="len(2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="534" y="191" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="cap(5)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="191" width="89" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;b&gt;步骤二：创建新的slice header&lt;/b&gt;&lt;div&gt;&lt;b&gt;步骤三：覆盖原有的slice header&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="152" width="195" height="41" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="" style="endArrow=classic;html=1;exitX=0.336;exitY=1.072;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="16">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="266" as="sourcePoint"/>
+                        <mxPoint x="431" y="191" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="endArrow=classic;html=1;exitX=0.336;exitY=1.072;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;entryX=0.326;entryY=0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="28">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="476" y="233" as="sourcePoint"/>
+                        <mxPoint x="640" y="292" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

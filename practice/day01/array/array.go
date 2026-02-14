@@ -7,6 +7,7 @@ func main() {
 		数组：
 			1、长度不可变（固定）
 			2、有索引 [k,v] 0:1
+			3、元素可变
 
 		注意事项：
 			1、不能数字开头
@@ -49,4 +50,23 @@ func main() {
 		e[4],
 		e[5],
 	)
+
+	fmt.Println("索引的修改")
+	var f = [...]int{1, 2, 3}
+	fmt.Println(f)
+	f[0] += 5
+	fmt.Println(f)
+
+	println("索引的遍历: 一维")
+
+	// forr
+	var g = [...]string{"张三", "李四", "王五"}
+	for i, v := range g {
+		println(i, v)
+	}
+	// for
+	for i := 0; i < len(g); i++ {
+		println(g[i])
+	}
+
 }
